@@ -1,0 +1,30 @@
+/* Default colors */
+:root, .light-theme {
+    /* Colors */
+    --pr-color-red-1: #fd636b;
+    --pr--color-yellow-1: #ffb902;
+    --pr-color-purple-1: #484a6f;
+    --pr-color-dark-slate-blue-1: #6967ce;
+    --pr-color-blue-1: #19afd0;
+    --pr-color-blue-2: #141a26;
+    --pr-color-gray-1: #9ca6af;
+    --pr-color-gray-2: #cbd4db;
+    --pr-color-gray-3: rgba(255,255,255,.16);
+    --pr-color-gray-4: rgb(255 255 255 / 20%);
+    --pr-color-gray-5: #fdfdfd;
+    --pr-color-gray-6: #f6f8f9;
+    --pr-color-gray-7: #e8ecee;
+    --pr-color-min: #ffffff;
+    --pr-color-max: #000000;
+
+    /* Shadow */
+    --pr-shadow-1: 0 1px 4px 0 rgba(21,27,38,.08);
+    /* Border */
+    --pr-color-border-1: var(--pr-color-gray-7);
+    /* Components */
+    --pr-color-editor-aside-bg: var(--pr-color-blue-2);
+    --pr-color-editor-aside-icon: var(--pr-color-gray-1);
+    --pr-color-editor-aside-list-text: var(--pr-color-gray-2);
+    --pr-color-editor-aside-list-bg-selected: var(--pr-color-gray-3);
+    --pr-color-editor-main-bg: var(--pr-color-min);
+}
