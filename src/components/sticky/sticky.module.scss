@@ -1,0 +1,10 @@
+.stickyContainer {
+    height: 100vh;
+}
+
+.stickyElement {
+    height: auto;
+    top: 0;
+    overflow: hidden;
+    position: sticky;
+}

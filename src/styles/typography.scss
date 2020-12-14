@@ -1,7 +1,26 @@
-@import 'fonts';
+@import 'fonts', 'variables';
 
 body {
     font-family: 'SF Pro Display';
     font-weight: 500;
     font-style: normal;
+}
+
+.typographyHeroEyebrow {
+    font-size: 32px;
+    line-height: 1.25;
+    font-weight: 700;
+    letter-spacing: 0em;
+    font-family: $font-family-sf-pro-display;
+
+}
+.typographyHeroHeadline {
+    font-size: 110px;
+    line-height: .81838;
+    font-weight: 700;
+    letter-spacing: -.009em;
+    font-family: $font-family-sf-pro-display;
+    opacity: 0;
+    margin-top: 8px;
+    line-height: 0.9;
 }

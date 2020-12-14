@@ -4,7 +4,7 @@ const isBrowser = typeof window !== `undefined`;
 
 type ScrollElement = Element & { current: any };
 type ScrollEffectPosition = { x: number, y: number };
-type ScrollEffectPositionState = { prevPos: ScrollEffectPosition, currPos: ScrollEffectPosition };
+export type ScrollEffectPositionState = { prevPos: ScrollEffectPosition, currPos: ScrollEffectPosition };
 
 const getScrollPosition = ({ element, useWindow }: { element?: ScrollElement, useWindow: boolean }) => {
   if (!isBrowser) return { x: 0, y: 0 }

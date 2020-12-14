@@ -1,6 +1,6 @@
 import React from "react";
 import { graphql } from "gatsby";
-import { Layout } from "../components/layout/layout";
+import { Layout } from "../components/layout/layout.component";
 
 export default function Home({ data }) {
   return <Layout><div>{data.site.siteMetadata.title}</div></Layout>;
