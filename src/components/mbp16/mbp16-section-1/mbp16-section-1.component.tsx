@@ -29,7 +29,7 @@ export const Mbp16Section1: FunctionComponent<Mbp16Section1Props> = ({ scrollPos
     }, [scrollPositionY]);
 
     return (
-        <div className={styles.wrapper}>
+        <section className={styles.wrapper}>
             <div className={styles.heroHeadlineWrapper} style={dynamicStyle}>
                 <div className={styles.heroHeadline}>
                     <h1 className="typographyHeroEyebrow">MacBookPro</h1>
@@ -37,6 +37,6 @@ export const Mbp16Section1: FunctionComponent<Mbp16Section1Props> = ({ scrollPos
                 </div>
             </div>
             <canvas ref={canvasRef}></canvas>
-        </div>
+        </section>
     );
 };
